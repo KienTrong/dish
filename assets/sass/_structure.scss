@@ -1,0 +1,30 @@
+// main: style.scss
+/*--------------------------------------------------------------
+# Structure
+--------------------------------------------------------------*/
+.site {
+	margin: 0 auto;
+	max-width: 1160px;
+    @include rem( 'padding', 0px 40px );
+    background: $color__background-site;
+}
+.content-area {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+
+.site-main {
+	margin: 0;
+}
+
+.site-content .widget-area {
+	float: none;
+	overflow: hidden;
+	width: 100%;
+}
+
+.site-footer {
+	clear: both;
+	width: $size__site-main;
+}
